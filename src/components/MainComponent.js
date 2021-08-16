@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './HeaderComponent';
 import Home from './HomePageComponent';
-import AccountDetails from './AccountDetailsComponent';
+import FetchAccounts from './FetchAccounts';
 import Footer from './FooterComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
@@ -26,7 +26,7 @@ class Main extends Component {
 
         const AccountPage = () => {
             return(
-                <AccountDetails />
+                <FetchAccounts />
             );
         }
 

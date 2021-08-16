@@ -34,7 +34,7 @@ function AccountDetails(props) {
 
   async function fetchAccountInfo() {
     
-    return fetch(`http://localhost:8080/AccountHolder/1`, {
+    return fetch(`http://localhost:8080/AccountHolders/1`, {
         method: "GET",
         headers: {
           Accept: "application/json",
